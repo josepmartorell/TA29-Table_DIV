@@ -1,0 +1,36 @@
+
+body {
+    background-color: skyblue;
+}
+
+.clouds{
+    background: url('../src/f03.png');
+    /* mandatory w and h to visualize image */
+    width: 100%; 
+    height: 150px;
+    
+}
+
+.scenario{
+    background: url('../src/f02.png');
+    background-repeat: no-repeat;
+    /* mandatory w and h to visualize image */
+    width: 200px; 
+    height: 100px;
+    /* combine absolute with bottom to positioning element*/
+    position: absolute;
+    bottom: 15px;
+
+}
+
+.road{
+    background: url('../src/f01.png');
+    background-repeat: repeat-x;
+    /* mandatory w and h to visualize image */
+    width: 100%; /* mandatory per cent to cover the 100% */
+    height: 15px;
+    /* combine absolute with bottom to set properly this element */
+    position: absolute;
+    bottom: 0px;
+
+}
