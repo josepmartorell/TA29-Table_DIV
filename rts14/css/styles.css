@@ -1,0 +1,38 @@
+table {
+    margin-top: 45vh; /* vh earn much more distance the px for table vertical positioning from top */
+    box-shadow: 4px 4px black; /* table shadow effect */
+    border-spacing: 0px; /* border */
+    border-style: solid;
+    border-color: #333;
+    font-family: Arial, Helvetica, sans-serif; /* font */
+    font-size: 0.8em;
+
+}
+
+th,
+td {
+    padding: 0.5em;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #333;
+    border: 1px solid black; /* border lines */
+}
+
+body {
+    background: url(../src/pingüinos.jpeg);
+    background-size: cover;
+}
+
+/* landscape positioning (horizontal) */
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+
+
+
+
+
