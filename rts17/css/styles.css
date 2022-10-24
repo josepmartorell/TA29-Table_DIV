@@ -1,0 +1,86 @@
+body {
+    background: url(../src/ac.jpg);
+    background-size: 100vh;
+}
+
+.row{
+    height: 222px;
+}
+
+.square{
+    border: 1px solid black;
+    margin-right: 17px;
+    width: auto;
+}
+
+/* back mantel */
+
+.fit-1{
+    background-image: url('../src/back_mantel.jpg');
+}
+
+.fit-2{
+    background-image: url('../src/back_mantel.jpg');
+    background-clip: content-box;
+}
+
+.fit-3{
+    background-image: url('../src/back_mantel.jpg');
+    background-size: 100% 100%;
+}
+
+.fit-4{
+    background-image: url('../src/back_mantel.jpg');
+    background-size: 100% 100%;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+}
+
+/* child portraid */
+
+.pin-1 {
+    background-image: url('../src/dh.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pin-2 {
+    background-image: url('../src/dh.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+}
+
+.pin-3 {
+    background-image: url('../src/dh_2.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.pin-4 {
+    background-image: url('../src/dh_3.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+/* gradient color */
+
+.back-1{
+    background: linear-gradient(to right, rgb(49, 59, 49) 0%, green 100%);
+}
+
+.back-2{
+    background: linear-gradient(to bottom, rgb(110, 133, 110) 0%, green 100%);
+}
+
+.back-3{
+    background: linear-gradient(to top, rgb(110, 133, 110) 0%, green 100%);
+}
+
+.back-4{
+    background: linear-gradient(to top, rgb(110, 133, 110) 0%, rgb(192, 202, 192) 100%);
+}
